@@ -1,0 +1,36 @@
+form { /* is a 'form' tag */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 350px;
+    background-color: white;
+    padding: 20px 30px 20px 20px;
+    border-radius: 10px;
+}
+
+
+form > * {  /* is a 'form > *' tags, internal elements */
+    margin: 10px;
+}
+
+
+form > div {  /* is a 'form > div' tag */
+    text-align: right;
+    margin-right: -10px;
+}
+
+
+body {  /* is a 'body' tag */
+    background-color: #84cbff;
+}
+
+
+h1 {  /* is a 'h1' tag */
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 64px;
+    font-weight: lighter;
+}
+
+
