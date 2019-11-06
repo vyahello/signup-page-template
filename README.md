@@ -1,15 +1,15 @@
 # Signup page template
-> A simple web page teplate that provides signup form for user with validation fields ability.
+> A simple web page template that provides signup form for user with validation fields ability.
 
-It is easy and simple to build with, try to use it as a base template!
+It is easy and simple to build, try to use it as a base template!
 
 ![Screenshot](img/signup.png)
 
 ## Tools
 
-> `html5`
-> `css`
-> `js`
+> - `html5`
+> - `css`
+> - `js`
 
 ## Usage example
 
