@@ -1,17 +1,16 @@
+// invokes user input in a form template
 $(document).ready(function () {
-
     $("form").submit(function (e) {
-        e.preventDefault()
+        e.preventDefault();
         const $input = $('form :input');
-        let values = {}
+        let values = {};
 
         $input.each(function () {
             if (this.name) {
                 values[this.name] = $(this).val();
             }
-        })
-        alert(JSON.stringify(values, null, 2))
+        });
+        alert(JSON.stringify(values, null, 2));
         return false
     })
-})
-
+});

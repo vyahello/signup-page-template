@@ -1,3 +1,13 @@
+form input, form select { /* is for 'form input' and 'form select' tag */
+    width: 100%;
+    color: #495057;
+    border: 1px solid #ced4da;
+    padding: .375rem .75rem;
+    height: calc(1.5em + .75rem + 2px);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
 form input::placeholder { /* is a name of a field, a placeholder */
     color: #6c757d;
     opacity: 1;
@@ -5,28 +15,21 @@ form input::placeholder { /* is a name of a field, a placeholder */
 
 
 button {  /* button tag */
+    color: #fff;
+    background-color: #225bf3;
+    border-color: #2957e1;
     display: inline-block;
     font-weight: 400;
-    color: #212529;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: transparent;
-    border: 1px solid transparent;
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
     border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-}
-
-
-button {  /* button tag */
-    color: #fff;
-    background-color: #28a745;
-    border-color: #28a745;
 }
 

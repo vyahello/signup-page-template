@@ -1,22 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
     <head>
+        <meta charset="UTF-8">
         <title>Signup</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> <!-- load CSS here -->
+        <link rel="stylesheet" href="extras/form.css">
+        <link rel="stylesheet" href="extras/site.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> <!-- load JS here -->
+        <script rel="script" src="extras/form_hook.js"></script>
     </head>
 
-    <h1>Sign up for FoxRem</h1>
-    
     <body>
+        <h1>Sign up for FoxRem</h1>
         <form>
-            <input type="text" required placeholder="full name">
-            <input type="email" required placeholder="email">
-            <input type="password" minlength="6" required placeholder="password">
-            <input type="age" min="18" required placeholder="age in years">
+            <input type="text" name="full name" required placeholder="full name">  <!-- style="width: 100%" same as we put in CSS file under "form input, form select" tags -->
+            <input type="email" name="email" required placeholder="email">
+            <input type="password" name="password" minlength="6" required placeholder="password">
+            <input type="number" name="age" min="18" required placeholder="age in years">
             <select name="heard_of" required>
-                <option value="">Please select a value</option>
-                <option value="friend">Friends</option>
-                <option value="community">Community</option>
+                <option value="" selected>Please select an option</option>
+                <option value="friend">Friend</option>
                 <option value="internet">Internet</option>
+                <option value="community">Community</option>
+                <option value="other">Other</option>
             </select>
             <button type="submit">Register</button>
         </form>
